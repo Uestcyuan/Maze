@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Maze</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>TW Dev(前端)</h1>
+    <div class="info">
+      <span>姓名：李渊</span>
+      <span>手机：18583710329</span>
+      <span>邮箱：cddzkjly@163.com</span>
+    </div>
+  </header>
+
+  <section>
+    <div class="size">
+      <label for="row_column">尺寸</label>
+      <span class="required">*</span>
+      <br>
+      <input type="text" id="row_column">
+      <button id="example" class="example">填入官方样例</button>
+      <p class="prompt"></p>
+    </div>
+
+    <div class="link">
+      <label for="connect">连通性</label>
+      <span class="required">*</span>
+      <br>
+      <input type="text" id="connect">
+      <p class="prompt"></p>
+    </div>
+
+    <div class="btn">
+      <button id="btnConnect">迷宫网格</button>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="showConnect">
+      <div id="showConnect"></div>
+    </div>
+  </footer>
+
+
+  <script src="./maze.js"></script>
+</body>
+
+</html>
